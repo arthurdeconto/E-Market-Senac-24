@@ -1,0 +1,145 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('ef11d4b653a9f15f4159def3bd4292ab.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(35,37,38,1) 0%, rgba(65,67,69,1) 100%);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: hsla(86, 100%, 50%, 0.922);
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('Plains_Grass_Block.webp') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0 0 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #2c2c2c;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(146, 230, 0);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(30% - 40px);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.produto p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+button {
+    background-color: rgb(146, 230, 0);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(146, 230, 0);
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(35,37,38,1) 0%, rgba(65,67,69,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
